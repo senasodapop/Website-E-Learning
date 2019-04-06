@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.header{
+    height: 300px;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/415071/pexels-photo-415071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-blend-mode: overlay;
+    background-position: center 80%; 
+}
