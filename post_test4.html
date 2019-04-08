@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/Logo Dassarwa.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Dassarwa
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto pr-4">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">About</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="btn btn-outline-primary" href="#" role="button">LOGIN</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header2">
+        <div class="jumbotron jumbotron-fluid header">
+            <div class="container">
+                <h1 class="display-4"><b>PEMBELAJARAN E-LEARNING</b></h1>
+                <p>Memahami metode ADDIE (Analysis, Design, Development, Implementation, Eevaluation)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container content">
+        <div class="lesson">
+            <h2>POST-TEST</h2>
+            <ol>
+                <li>
+                    <div class="form-group">
+                        <div class="container">
+                            <div class="row">
+                                SKILLS: What are your personal strength?
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest1" type="radio" name="gridRadios1"
+                                        id="gridRadios1" value="0">
+                                    <label class="form-check-label" for="gridRadios1">
+                                        Logic
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest1" type="radio" name="gridRadios1"
+                                        id="gridRadios2" value="1">
+                                    <label class="form-check-label" for="gridRadios2">
+                                        Management
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest1" type="radio" name="gridRadios1"
+                                        id="gridRadios3" value="2">
+                                    <label class="form-check-label" for="gridRadios3">
+                                        Thinking
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-group">
+                        <div class="container">
+                            <div class="row">
+                                INTERESTS: What is your hobby?
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest2" type="radio" name="gridRadios2"
+                                        id="gridRadios4" value="0">
+                                    <label class="form-check-label" for="gridRadios4">
+                                        Reading
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest2" type="radio" name="gridRadios2"
+                                        id="gridRadios5" value="1">
+                                    <label class="form-check-label" for="gridRadios5">
+                                        Sport
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest2" type="radio" name="gridRadios2"
+                                        id="gridRadios6" value="2">
+                                    <label class="form-check-label" for="gridRadios6">
+                                        Computer
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="form-group">
+                        <div class="container">
+                            <div class="row">
+                                SCHOOL DEGREE: Where do you come from?
+                            </div>
+                            <div class="row">
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest3" type="radio" name="gridRadios3"
+                                        id="gridRadios7" value="0">
+                                    <label class="form-check-label" for="gridRadios7">
+                                        SMA : IPA
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" v-model="quest3" type="radio" name="gridRadios3"
+                                        id="gridRadios8" value="1">
+                                    <label class="form-check-label" for="gridRadios8">
+                                        SMA : IPS
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+            <div class="form-submit">
+                <button onclick="window.open('index.html');" type="button" class="btn btn-outline-primary">Submit</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6 d-flex justify-content-start">
+                <a class="btn btn-primary" href="materi4.html" role="button">Sebelumnya</a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <a class="btn btn-primary" href="pre_test5.html" role="button">Selanjutnya</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright
+            <a href="#"> Dassarwa </a>
+        </div>
+    </div>
+</body>
+
+</html>
